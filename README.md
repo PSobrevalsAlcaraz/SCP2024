@@ -64,7 +64,7 @@ Please refer to the included PDF document `SCP_workflow_2024.pdf` for a detailed
 This workflow is based on the methodology described by Laurent Gatto and Christophe Vanderaa in their publications:
 
 - Vanderaa, Christophe, and Laurent Gatto. 2021. “Replication of Single-Cell Proteomics Data Reveals Important Computational Challenges.” Expert Rev. Proteomics, October.
-- Gatto, L., & Vanderaa, C. (2024). Single Cell Proteomics data processing and analysis (Version 1.14.0) Retrieved from [bioconductor](https://bioconductor.org/packages/release/bioc/vignettes/scp/inst/doc/scp.html)
+- Gatto, L., & Vanderaa, C. (2024). Single Cell Proteomics data processing and analysis (Version 1.14.0) Retrieved from [Bioconductor](https://bioconductor.org/packages/release/bioc/vignettes/scp/inst/doc/scp.html)
 
 ## Contributing
 
