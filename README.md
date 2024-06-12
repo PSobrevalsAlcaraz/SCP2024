@@ -25,6 +25,7 @@ Adapted from the methodology by Gatto and Vanderaa (2021 & 2023).
 To use this workflow, you need to have R installed on your system. You can download R from [CRAN](https://cran.r-project.org/), this script has been made with R (version 4.1.2).
 You should also have the following dependencies installed:
 - devtools  - scp  - limma  - scuttle  - matrixStats  - GGally  - randomcoloR  - expss  - svDialogs  - dplyr  - scater  - ggbreak  - viridis  - seqinr  - ggpubr  - ggplot2  - RColorBrewer  - scp  - magrittr  - tidyr  - proDA  - tcltk  - anchors  - ggrepel  - plotly  - DEP  - reshape2  - ggthemes
+
 If not, the script will install them automatically at the beginning.
 
 ## Usage
@@ -63,7 +64,7 @@ Please refer to the included PDF document `SCP_workflow_2024.pdf` for a detailed
 This workflow is based on the methodology described by Laurent Gatto and Christophe Vanderaa in their publications:
 
 - Vanderaa, Christophe, and Laurent Gatto. 2021. “Replication of Single-Cell Proteomics Data Reveals Important Computational Challenges.” Expert Rev. Proteomics, October.
-- Gatto, L., & Vanderaa, C. (2024). Single Cell Proteomics data processing and analysis (Version 1.14.0) Retrieved from [https://example.com ](https://bioconductor.org/packages/release/bioc/vignettes/scp/inst/doc/scp.html)
+- Gatto, L., & Vanderaa, C. (2024). Single Cell Proteomics data processing and analysis (Version 1.14.0) Retrieved from [bioconductor](https://bioconductor.org/packages/release/bioc/vignettes/scp/inst/doc/scp.html)
 
 ## Contributing
 
