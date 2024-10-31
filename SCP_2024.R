@@ -984,13 +984,13 @@
       PSM <- separate_rows(PSM, Master.Protein.Accessions, sep=";")
       PSM$Master.Protein.Accessions <- trimws(PSM$Master.Protein.Accessions)
       
-      PSM.g <- PSM %>% group_by(File.ID, Master.Protein.Accessions, Annotated.Sequence,Percolator.PEP) %>% 
+      PSM.g <- PSM %>% group_by(File.ID, Master.Protein.Accessions, Annotated.Sequence,PEP) %>% 
         summarise_at(grep("Abundance.",colnames(PSM), value=T), median, na.rm=T) 
       
       PSM.m <- make.proteins.SCP(data.frame(PSM.g))
       
       colnames(PSM.m) <- c("File.ID", "Master.Protein.Accessions", "Annotated.Sequence", 
-                           "Percolator.PEP", "Abundance.126", "Abundance.127N", "Abundance.127C", "Abundance.128N", 
+                           "PEP", "Abundance.126", "Abundance.127N", "Abundance.127C", "Abundance.128N", 
                            "Abundance.128C", "Abundance.129N", "Abundance.129C", "Abundance.130N", 
                            "Abundance.130C", "Abundance.131N", "Abundance.131C", "Abundance.132N", 
                            "Abundance.132C", "Abundance.133N", "Abundance.133C", "Abundance.134N", 
@@ -1443,7 +1443,7 @@
   
   scp <- pep2qvalue(scp,
                     i = 1:length(scp),
-                    PEP = "Percolator.PEP",
+                    PEP = "PEP",
                     rowDataName = ".FDR")
   
   
