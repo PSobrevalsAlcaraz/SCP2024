@@ -23,10 +23,11 @@ Adapted from the methodology by Gatto and Vanderaa (2021 & 2023).
 ## Installation
 
 To use this workflow, you need to have R installed on your system. You can download R from [CRAN](https://cran.r-project.org/), this script has been made with R (version 4.1.2).
-You should also have the following dependencies installed:
+You should also have the following dependencies installed*:
 - devtools  - scp  - limma  - scuttle  - matrixStats  - GGally  - randomcoloR  - expss  - svDialogs  - dplyr  - scater  - ggbreak  - viridis  - seqinr  - ggpubr  - ggplot2  - RColorBrewer  - scp  - magrittr  - tidyr  - proDA  - tcltk  - anchors  - ggrepel  - plotly  - DEP  - reshape2  - ggthemes
 
 If not, the script will install them automatically at the beginning.
+*For more information of the package versions, please check the annex of the PDF document `SCP_workflow_2024.pdf`.
 
 ## Usage
 
