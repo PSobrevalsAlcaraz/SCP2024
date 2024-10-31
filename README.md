@@ -22,7 +22,7 @@ Adapted from the methodology by Gatto and Vanderaa (2021 & 2023).
 
 ## Installation
 
-To use this workflow, you need to have R installed on your system. You can download R from [CRAN](https://cran.r-project.org/), this script has been made with R (version 4.1.2).
+To use this workflow, you need to have R installed on your system. You can download R from [CRAN](https://cran.r-project.org/), this script has been made with R (version 4.3.3).
 You should also have the following dependencies installed*:
 - devtools  - scp  - limma  - scuttle  - matrixStats  - GGally  - randomcoloR  - expss  - svDialogs  - dplyr  - scater  - ggbreak  - viridis  - seqinr  - ggpubr  - ggplot2  - RColorBrewer  - scp  - magrittr  - tidyr  - proDA  - tcltk  - anchors  - ggrepel  - plotly  - DEP  - reshape2  - ggthemes
 
