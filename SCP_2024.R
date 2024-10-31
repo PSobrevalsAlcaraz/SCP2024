@@ -995,6 +995,9 @@
                            "Abundance.130C", "Abundance.131N", "Abundance.131C", "Abundance.132N", 
                            "Abundance.132C", "Abundance.133N", "Abundance.133C", "Abundance.134N", 
                            "Abundance.134C", "Abundance.135N")
+      
+      PSM.m <- PSM.m[!(PSM.m$Master.Protein.Accessions == ""),]
+      
       PSM <- PSM.m
       write.table(PSM.m, sub(".txt",'_forSCP.txt',select.psm), quote=F, row.names=F, sep= "\t")
       
