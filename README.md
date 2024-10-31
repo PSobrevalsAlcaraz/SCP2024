@@ -27,7 +27,7 @@ You should also have the following dependencies installed*:
 - devtools  - scp  - limma  - scuttle  - matrixStats  - GGally  - randomcoloR  - expss  - svDialogs  - dplyr  - scater  - ggbreak  - viridis  - seqinr  - ggpubr  - ggplot2  - RColorBrewer  - scp  - magrittr  - tidyr  - proDA  - tcltk  - anchors  - ggrepel  - plotly  - DEP  - reshape2  - ggthemes
 
 If not, the script will install them automatically at the beginning.
-*For more information of the package versions, please check the annex of the PDF document `SCP_workflow_2024.pdf`.
+*For more information of the package versions, please check the supplementary data and references of the PDF document `SCP_workflow_2024.pdf`.
 
 ## Usage
 
