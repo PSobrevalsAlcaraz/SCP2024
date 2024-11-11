@@ -9,6 +9,7 @@ Adapted from the methodology by Gatto and Vanderaa (2021 & 2023).
 - [Installation](#installation)
 - [Usage](#usage)
 - [Workflow Description](#workflow-description)
+- [Flowchart](#flowchart)
 - [Reference](#reference)
 - [Contributing](#contributing)
 
@@ -26,7 +27,7 @@ To use this workflow, you need to have R installed on your system. You can downl
 You should also have the following dependencies installed*:
 - devtools  - scp  - limma  - scuttle  - matrixStats  - GGally  - randomcoloR  - expss  - svDialogs  - dplyr  - scater  - ggbreak  - viridis  - seqinr  - ggpubr  - ggplot2  - RColorBrewer  - scp  - magrittr  - tidyr  - proDA  - tcltk  - anchors  - ggrepel  - plotly  - DEP  - reshape2  - ggthemes
 
-If not, the script will install them automatically at the beginning.
+Otherwise, the script will install them automatically at the beginning.
 *For more information of the package versions, please check the supplementary data and references of the PDF document `SCP_workflow_2024.pdf`.
 
 ## Usage
@@ -59,6 +60,12 @@ The workflow is divided into several steps, listed below:
 16. **UMAP (Uniform Manifold Approximation and Projection)**
     
 Please refer to the included PDF document `SCP_workflow_2024.pdf` for a detailed description of each step.
+
+## Flowchart
+
+Schematic description of the SCP workflow:
+
+![Alt text](https://github.com/PSobrevalsAlcaraz/SCP2024/blob/main/SCP_workflow.jpg)
 
 ## Reference
 
